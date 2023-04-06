@@ -5,7 +5,6 @@ from langchain.llms import OpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import TokenTextSplitter
-from langchain.llms import OpenAI
 from langchain.chains import ChatVectorDBChain
 from langchain.document_loaders import DirectoryLoader
 import jieba as jb
